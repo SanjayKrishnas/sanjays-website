@@ -1,21 +1,22 @@
+// src/app/page.tsx
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+    <div className="font-sans flex flex-col items-center justify-center min-h-[calc(100vh-120px)] p-8 gap-16 sm:p-20">
+      <div className="flex flex-col gap-[32px] items-center sm:items-start">
         <Image
-          className="dark:invert"
           src="/next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
           priority
+          style={{ filter: 'brightness(0) saturate(100%) invert(17%) sepia(77%) saturate(1352%) hue-rotate(207deg) brightness(93%) contrast(86%)' }}
         />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
+        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left text-primary-blue">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
+            <code className="bg-gray-100 font-mono font-semibold px-1 py-0.5 rounded text-primary-blue">
               src/app/page.tsx
             </code>
             .
@@ -27,22 +28,22 @@ export default function Home() {
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+            className="rounded-full border border-solid border-transparent transition-all duration-300 flex items-center justify-center bg-primary text-white gap-2 hover:bg-secondary hover:shadow-lg font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
-              className="dark:invert"
               src="/vercel.svg"
               alt="Vercel logomark"
               width={20}
               height={20}
+              style={{ filter: 'brightness(0) saturate(100%) invert(100%)' }}
             />
             Deploy now
           </a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
+            className="rounded-full border-2 border-solid border-primary transition-all duration-300 flex items-center justify-center hover:bg-primary hover:text-white font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px] text-primary"
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
@@ -50,10 +51,11 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+      </div>
+      
+      <footer className="flex gap-[24px] flex-wrap items-center justify-center">
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4 text-primary hover:text-secondary transition-colors"
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -64,11 +66,12 @@ export default function Home() {
             alt="File icon"
             width={16}
             height={16}
+            style={{ filter: 'brightness(0) saturate(100%) invert(17%) sepia(77%) saturate(1352%) hue-rotate(207deg) brightness(93%) contrast(86%)' }}
           />
           Learn
         </a>
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4 text-primary hover:text-secondary transition-colors"
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -79,11 +82,12 @@ export default function Home() {
             alt="Window icon"
             width={16}
             height={16}
+            style={{ filter: 'brightness(0) saturate(100%) invert(17%) sepia(77%) saturate(1352%) hue-rotate(207deg) brightness(93%) contrast(86%)' }}
           />
           Examples
         </a>
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4 text-primary hover:text-secondary transition-colors"
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -94,6 +98,7 @@ export default function Home() {
             alt="Globe icon"
             width={16}
             height={16}
+            style={{ filter: 'brightness(0) saturate(100%) invert(17%) sepia(77%) saturate(1352%) hue-rotate(207deg) brightness(93%) contrast(86%)' }}
           />
           Go to nextjs.org →
         </a>
