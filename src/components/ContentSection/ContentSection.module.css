@@ -2,84 +2,87 @@
 
 .section {
     width: 100%;
-    padding: 4rem 0; /* Vertical padding for each section */
+    padding: 4rem 0;
   }
   
   .whiteBackground {
-    background-color: #ffffff;
+    background-color: #f4eae2; /* Brown background */
   }
   
   .lightBackground {
-    background-color: #f8fafc; /* Light gray/blue background */
+    background-color: #f3e4d9; /* Darker brown background */
   }
   
   .container {
-    max-width: 1200px; /* Control the max width */
-    margin: 0 auto; /* Center the content */
-    padding: 0 2rem; /* Left and right white space margins */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
   }
   
   .content {
     display: flex;
     align-items: center;
-    gap: 3rem; /* Space between image and text */
-  }
-  
-  .imageContainer {
-    flex: 0 0 400px; /* Fixed width for image container */
-  }
-  
-  .image {
-    width: 100%;
-    height: auto;
-    border-radius: 12px; /* Rounded corners for image */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    gap: 6rem;
+    background-color: inherit; /* CHANGED: Same color as section background */
+    padding: 3rem;
+    border: 2px solid #333; /* CHANGED: Darker border like the example */
   }
   
   .textContainer {
-    flex: 1; /* Take up remaining space */
-    background-color: white;
-    padding: 2rem;
-    border-radius: 16px; /* Rounded rectangle for text */
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08); /* Subtle shadow */
-    border: 1px solid #e2e8f0; /* Light border */
+    flex: 1;
   }
   
   .title {
-    font-family: 'Poppins', sans-serif; /* Use your heading font */
-    font-size: 2rem;
-    font-weight: 600;
-    color: #1e293b;
-    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #281f15;
+    margin-bottom: 1.5rem;
     line-height: 1.2;
   }
   
   .description {
-    font-family: 'Inter', sans-serif; /* Use your body font */
-    font-size: 1.125rem;
-    color: #475569;
-    line-height: 1.7;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1rem;
+    color: #281f15;
+    line-height: 1.6;
     margin: 0;
+  }
+  
+  .imageContainer {
+    flex: 0 0 300px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
   }
   
   /* Responsive design */
   @media (max-width: 768px) {
     .content {
-      flex-direction: column; /* Stack vertically on mobile */
+      flex-direction: column;
       gap: 2rem;
+      padding: 2rem;
     }
     
     .imageContainer {
       flex: none;
       width: 100%;
+      order: -1;
+    }
+    
+    .image {
+      height: 250px;
     }
     
     .container {
-      padding: 0 1rem; /* Less padding on mobile */
+      padding: 0 1rem;
     }
     
     .section {
-      padding: 2rem 0; /* Less vertical padding on mobile */
+      padding: 2rem 0;
     }
     
     .title {
@@ -87,6 +90,6 @@
     }
     
     .description {
-      font-size: 1rem;
+      font-size: 0.875rem;
     }
   }

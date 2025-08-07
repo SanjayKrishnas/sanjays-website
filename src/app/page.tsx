@@ -9,7 +9,11 @@ export default function Home() {
         imageSrc="/placeholder-image1.jpg" // Replace with your actual image path
         imageAlt="About me illustration"
         title="Welcome to My Portfolio"
-        description="I'm a passionate full-stack developer with experience in modern web technologies. I love creating innovative solutions that make a real impact. From React applications to backend systems, I enjoy the entire development process."
+        description="I'm a passionate full-stack developer with experience in modern web technologies. 
+        I love creating innovative solutions that make a real impact. From React applications to backend systems, 
+        I enjoy the entire development process. I'm a passionate full-stack developer with experience in modern web technologies. 
+        I love creating innovative solutions that make a real impact. From React applications to backend systems, 
+        I enjoy the entire development process."
         backgroundColor="white"
       />
 
