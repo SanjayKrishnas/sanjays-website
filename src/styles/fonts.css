@@ -1,0 +1,43 @@
+/* src/styles/fonts.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
+/* Font Family Variables */
+:root {
+  --font-heading: 'Poppins', sans-serif;     /* For headings, logos, titles */
+  --font-body: 'Inter', sans-serif;          /* For body text, paragraphs */
+  --font-nav: 'Inter', sans-serif;           /* For navigation items */
+  --font-code: 'JetBrains Mono', monospace;  /* For code blocks */
+}
+
+/* Font Weight Variables */
+:root {
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+}
+
+/* Font Size Variables */
+:root {
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-base: 1rem;      /* 16px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 1.875rem;   /* 30px */
+  --text-4xl: 2.25rem;    /* 36px */
+  --text-5xl: 3rem;       /* 48px */
+}
+
+/* Utility Classes */
+.font-heading { font-family: var(--font-heading); }
+.font-body { font-family: var(--font-body); }
+.font-nav { font-family: var(--font-nav); }
+.font-code { font-family: var(--font-code); }
