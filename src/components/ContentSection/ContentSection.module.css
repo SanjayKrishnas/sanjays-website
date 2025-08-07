@@ -5,11 +5,11 @@
     padding: 4rem 0;
   }
   
-  .whiteBackground {
+  .lightBackground {
     background-color: #f4eae2; /* Brown background */
   }
   
-  .lightBackground {
+  .darkBackground {
     background-color: #f3e4d9; /* Darker brown background */
   }
   
@@ -25,7 +25,7 @@
     gap: 6rem;
     background-color: inherit; /* CHANGED: Same color as section background */
     padding: 3rem;
-    border: 2px solid #333; /* CHANGED: Darker border like the example */
+    border: 2px solid #281f15; 
   }
   
   .textContainer {

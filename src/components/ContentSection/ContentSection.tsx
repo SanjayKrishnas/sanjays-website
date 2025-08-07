@@ -7,7 +7,7 @@ interface ContentSectionProps {
   imageAlt: string;
   title: string;
   description: string;
-  backgroundColor?: 'white' | 'light';
+  backgroundColor?: 'light' | 'dark';
 }
 
 export default function ContentSection({ 
@@ -15,10 +15,10 @@ export default function ContentSection({
   imageAlt, 
   title, 
   description,
-  backgroundColor = 'white'
+  backgroundColor = 'light'
 }: ContentSectionProps) {
   return (
-    <section className={`${styles.section} ${backgroundColor === 'light' ? styles.lightBackground : styles.whiteBackground}`}>
+    <section className={`${styles.section} ${backgroundColor === 'dark' ? styles.darkBackground : styles.lightBackground}`}>
       <div className={styles.container}>
         <div className={styles.content}>
           {/* Text on the left */}
