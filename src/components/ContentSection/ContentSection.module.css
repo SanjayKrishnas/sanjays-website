@@ -1,0 +1,92 @@
+/* src/components/ContentSection/ContentSection.module.css */
+
+.section {
+    width: 100%;
+    padding: 4rem 0; /* Vertical padding for each section */
+  }
+  
+  .whiteBackground {
+    background-color: #ffffff;
+  }
+  
+  .lightBackground {
+    background-color: #f8fafc; /* Light gray/blue background */
+  }
+  
+  .container {
+    max-width: 1200px; /* Control the max width */
+    margin: 0 auto; /* Center the content */
+    padding: 0 2rem; /* Left and right white space margins */
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 3rem; /* Space between image and text */
+  }
+  
+  .imageContainer {
+    flex: 0 0 400px; /* Fixed width for image container */
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px; /* Rounded corners for image */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .textContainer {
+    flex: 1; /* Take up remaining space */
+    background-color: white;
+    padding: 2rem;
+    border-radius: 16px; /* Rounded rectangle for text */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+    border: 1px solid #e2e8f0; /* Light border */
+  }
+  
+  .title {
+    font-family: 'Poppins', sans-serif; /* Use your heading font */
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  
+  .description {
+    font-family: 'Inter', sans-serif; /* Use your body font */
+    font-size: 1.125rem;
+    color: #475569;
+    line-height: 1.7;
+    margin: 0;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column; /* Stack vertically on mobile */
+      gap: 2rem;
+    }
+    
+    .imageContainer {
+      flex: none;
+      width: 100%;
+    }
+    
+    .container {
+      padding: 0 1rem; /* Less padding on mobile */
+    }
+    
+    .section {
+      padding: 2rem 0; /* Less vertical padding on mobile */
+    }
+    
+    .title {
+      font-size: 1.5rem;
+    }
+    
+    .description {
+      font-size: 1rem;
+    }
+  }
