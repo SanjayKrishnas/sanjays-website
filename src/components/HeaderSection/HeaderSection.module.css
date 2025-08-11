@@ -3,7 +3,7 @@
 .section {
     width: 100%;
     padding: 6rem 0 4rem 0;
-    background-color: #f4eae2; /* Brown background */
+    background-color: #e8d5c4; /* white background */
   }
   
   .container {
@@ -18,7 +18,7 @@
   
   .title {
     font-family: 'Poppins', sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 800;
     color: #281f15;
     margin-bottom: 1rem;
@@ -29,7 +29,7 @@
   .subtitle {
     font-family: 'Poppins', sans-serif; 
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 600;
     color: #281f15;
     line-height: 1.5;
     margin: 0;
