@@ -16,7 +16,7 @@ export default function Navbar() {
             About Me
           </Link>
           <Link href="/experience" className={styles.navLink}>
-            Experience
+            Work Experience
           </Link>
           <Link href="/projects" className={styles.navLink}>
             Projects

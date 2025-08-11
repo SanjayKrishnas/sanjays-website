@@ -1,0 +1,66 @@
+/* src/components/HeaderSection/HeaderSection.module.css */
+
+.section {
+    width: 100%;
+    padding: 6rem 0 4rem 0;
+    background-color: #f4eae2; /* Brown background */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #281f15;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  }
+  
+  .subtitle {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #281f15;
+    line-height: 1.5;
+    margin: 0;
+    opacity: 0.8;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .section {
+      padding: 4rem 0 3rem 0;
+    }
+    
+    .container {
+      padding: 0 1rem;
+    }
+    
+    .title {
+      font-size: 2.5rem;
+    }
+    
+    .subtitle {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 2rem;
+    }
+    
+    .subtitle {
+      font-size: 0.875rem;
+    }
+  }
