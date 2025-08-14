@@ -12,9 +12,6 @@ export default function Navbar() {
           </Link>
         </div>
         <div className={styles.navbarMenu}>
-          <Link href="/about" className={styles.navLink}>
-            About Me
-          </Link>
           <Link href="/experience" className={styles.navLink}>
             Work Experience
           </Link>
