@@ -24,7 +24,10 @@ export default function ContentSection({
           {/* Text on the left */}
           <div className={styles.textContainer}>
             <h2 className={styles.title}>{title}</h2>
-            <p className={styles.description}>{description}</p>
+            <div 
+              className={styles.description}
+              dangerouslySetInnerHTML={{ __html: description }}
+            />
           </div>
           
           {/* Image on the right */}

@@ -3,6 +3,8 @@ import ContentSection from "../components/ContentSection/ContentSection";
 import HeaderSection from "../components/HeaderSection/HeaderSection"
 
 export default function Home() {
+  const sanjayImage = "/images/sanjay-image.jpg"
+
   return (
     <div>
       {/* Heder for main page */}
@@ -13,7 +15,7 @@ export default function Home() {
 
       {/* Section 1 - Light brown background */}
       <ContentSection
-        imageSrc="/placeholder-image1.jpg"
+        imageSrc={sanjayImage}
         imageAlt="About me illustration"
         title="Who am I?"
         description={
@@ -33,19 +35,30 @@ export default function Home() {
       <ContentSection
         imageSrc="/placeholder-image2.jpg" // Replace with your actual image path
         imageAlt="My projects showcase"
-        title="Building Amazing Projects"
-        description="Over the years, I've worked on various projects ranging from e-commerce platforms to data visualization tools. Each project teaches me something new and helps me grow as a developer. I'm always excited to take on new challenges."
+        title="My Socials!"
+        description={`
+          <p>Connect with me:</p>
+          <ul style="list-style: none; padding: 0; margin: 20px 0;">
+            <li style="margin: 10px 0;">
+              <a href="www.linkedin.com/in/sanjay-s-krishna" target="_blank" rel="noopener noreferrer" style="color: #0077b5; text-decoration: none; font-weight: bold;">
+                🔗 LinkedIn
+              </a>
+            </li>
+            <li style="margin: 10px 0;">
+              <a href="https://github.com/SanjayKrishnas" target="_blank" rel="noopener noreferrer" style="color: #333; text-decoration: none; font-weight: bold;">
+                💻 GitHub
+              </a>
+            </li>
+            <li style="margin: 10px 0;">
+              <a href="mailto:sanjayskrishna05@gmail.com" style="color: #ea4335; text-decoration: none; font-weight: bold;">
+                📧 Email
+              </a>
+            </li>
+          </ul>
+        `}
         backgroundColor="dark"
       />
-
-      {/* Section 3 - Light brown background */}
-      <ContentSection
-        imageSrc="/placeholder-image3.jpg" // Replace with your actual image path
-        imageAlt="Technology stack"
-        title="Modern Technology Stack"
-        description="I work with cutting-edge technologies including React, Next.js, Node.js, and various databases. Staying up-to-date with the latest trends and best practices is important to me, ensuring I deliver high-quality, maintainable code."
-        backgroundColor="light"
-      />
+      
     </div>
   );
 }
