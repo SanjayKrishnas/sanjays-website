@@ -4,7 +4,8 @@ import HeaderSection from "../components/HeaderSection/HeaderSection"
 
 export default function Home() {
   const sanjayImage = "/images/sanjay-image.jpg"
-
+  const socialsImage = "/images/Socials.jpg"
+  
   return (
     <div>
       {/* Heder for main page */}
@@ -33,24 +34,24 @@ export default function Home() {
 
       {/* Section 2 - Brown background */}
       <ContentSection
-        imageSrc="/placeholder-image2.jpg" // Replace with your actual image path
+        imageSrc={socialsImage} 
         imageAlt="My projects showcase"
         title="My Socials!"
         description={`
-          <p>Connect with me:</p>
-          <ul style="list-style: none; padding: 0; margin: 20px 0;">
-            <li style="margin: 10px 0;">
-              <a href="www.linkedin.com/in/sanjay-s-krishna" target="_blank" rel="noopener noreferrer" style="color: #0077b5; text-decoration: none; font-weight: bold;">
+          <p style="margin: 0 0 1px 0; line-height: 0.8;">Connect with me:</p>
+          <ul style="list-style: none; padding: 0; margin: 0; line-height: 0.8;">
+            <li style="margin: 0; padding: 0; line-height: 0.8;">
+              <a href="https://www.linkedin.com/in/sanjay-s-krishna" target="_blank" rel="noopener noreferrer" style="color: #0077b5; text-decoration: none; font-weight: bold; line-height: 0.8;">
                 🔗 LinkedIn
               </a>
             </li>
-            <li style="margin: 10px 0;">
-              <a href="https://github.com/SanjayKrishnas" target="_blank" rel="noopener noreferrer" style="color: #333; text-decoration: none; font-weight: bold;">
+            <li style="margin: 0; padding: 0; line-height: 0.8;">
+              <a href="https://github.com/SanjayKrishnas" target="_blank" rel="noopener noreferrer" style="color: #333; text-decoration: none; font-weight: bold; line-height: 0.8;">
                 💻 GitHub
               </a>
             </li>
-            <li style="margin: 10px 0;">
-              <a href="mailto:sanjayskrishna05@gmail.com" style="color: #ea4335; text-decoration: none; font-weight: bold;">
+            <li style="margin: 0; padding: 0; line-height: 0.8;">
+              <a href="mailto:sanjayskrishna05@gmail.com" style="color: #ea4335; text-decoration: none; font-weight: bold; line-height: 0.8;">
                 📧 Email
               </a>
             </li>
