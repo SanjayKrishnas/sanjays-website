@@ -3,7 +3,6 @@ import ContentSection from "@/components/ContentSection/ContentSection";
 import HeaderSection from "@/components/HeaderSection/HeaderSection"
 
 export default function Home() {
-  const socialsImage = "/images/Socials.jpg"
   
   return (
     <div>
@@ -33,7 +32,7 @@ export default function Home() {
 
       {/* Section 2 - Brown background */}
       <ContentSection
-        imageSrc={socialsImage} 
+        imageSrc="/sanjays-website/images/Socials.jpg"
         imageAlt="My projects showcase"
         title="My Socials!"
         description={`
