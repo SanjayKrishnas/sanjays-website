@@ -1,6 +1,6 @@
 // src/app/page.tsx
-import ContentSection from "../components/ContentSection/ContentSection";
-import HeaderSection from "../components/HeaderSection/HeaderSection"
+import ContentSection from "@/components/ContentSection/ContentSection";
+import HeaderSection from "@/components/HeaderSection/HeaderSection"
 
 export default function Home() {
   const sanjayImage = "/images/sanjay-image.jpg"
