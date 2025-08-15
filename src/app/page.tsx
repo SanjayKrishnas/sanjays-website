@@ -15,7 +15,7 @@ export default function Home() {
 
       {/* Section 1 - Light brown background */}
       <ContentSection
-        imageSrc="sanjays-website/images/sanjay-image.jpg"
+        imageSrc="/sanjays-website/images/sanjay-image.jpg"
         imageAlt="About me illustration"
         title="Who am I?"
         description={
