@@ -1,9 +1,10 @@
 // src/app/page.tsx
+import Image from "next/image";
+
 import ContentSection from "@/components/ContentSection/ContentSection";
 import HeaderSection from "@/components/HeaderSection/HeaderSection"
 
 export default function Home() {
-  const sanjayImage = "/images/sanjay-image.jpg"
   const socialsImage = "/images/Socials.jpg"
   
   return (
@@ -16,7 +17,7 @@ export default function Home() {
 
       {/* Section 1 - Light brown background */}
       <ContentSection
-        imageSrc={sanjayImage}
+        imageSrc="/images/sanjay-image.jpg"
         imageAlt="About me illustration"
         title="Who am I?"
         description={
