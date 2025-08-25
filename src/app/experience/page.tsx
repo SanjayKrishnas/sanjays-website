@@ -19,6 +19,38 @@ export default function Experience() {
                 backgroundColor="dark"
             />
 
+            <ContentSection
+                imageSrc=""
+                imageAlt="EndOverdose"
+                title="Software Development Engineer @ EndOvedose"
+                description={"PLACEHOLDER"
+                }
+                backgroundColor="light"
+            />
+
+            <ContentSection
+                imageSrc=""
+                imageAlt="Cyber"
+                title="Software Engineering Intern @ ACM Cyber Labs"
+                description={"PLACEHOLDER"
+                }
+                backgroundColor="dark"
+            />
+
+            <HeaderSection
+                title="RESEARCH"
+                subtitle="WHAT INTERESTS ME"
+            />
+
+            <ContentSection
+                imageSrc=""
+                imageAlt="StarAI"
+                title="Deep Learning/LLM Researcher @ StarAI Labs"
+                description={"PLACEHOLDER"
+                }
+                backgroundColor="light"
+            />
+            
         </div>
     );
 }
