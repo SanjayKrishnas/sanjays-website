@@ -23,5 +23,21 @@ export default function Clubs() {
             description={"Placeholder"}
             backgroundColor="light"
         />
+
+        <ContentSection
+            imageSrc=""
+            imageAlt=""
+            title="Member @ ACM ICPC"
+            description={"Placeholder"}
+            backgroundColor="dark"
+        />
+
+        <ContentSection
+            imageSrc=""
+            imageAlt=""
+            title="Member @ ACM Cyber"
+            description={"Placeholder"}
+            backgroundColor="light"
+        />
     </div>
 }
