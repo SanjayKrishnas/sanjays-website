@@ -11,7 +11,7 @@ export default function Clubs() {
             />
 
             <ContentSection
-                imageSrc=""
+                imageSrc="/sanjays-website/images/bppls.jpg"
                 imageAlt="blueprint_pl"
                 title="Project Lead @ BluePrint"
                 description={"Incoming Software DeveloperProject Lead for BluePrint 2026!"
@@ -26,7 +26,7 @@ export default function Clubs() {
             />
 
             <ContentSection
-                imageSrc=""
+                imageSrc="/sanjays-website/images/blueprint.JPG"
                 imageAlt="blueprint_dev"
                 title="Developer @ BluePrint"
                 description={"Blueprint is a certificed 501 c3 non-profit organization that provides free software development services to non-profits and social good organizations."
@@ -38,7 +38,7 @@ export default function Clubs() {
             />  
 
             <ContentSection
-                imageSrc=""
+                imageSrc="/sanjays-website/images/icpc.jpg"
                 imageAlt="icpc"
                 title="Member @ ACM ICPC"
                 description={"Took part as a member of ICPC's advanced coding track, where we practiced and expanded basic and advanced algorithmic tenchniques such as: "
