@@ -25,7 +25,7 @@ export default function Experience() {
             />
 
             <ContentSection
-                imageSrc=""
+                imageSrc="/sanjays-website/images/narcat.png"
                 imageAlt="EndOverdose"
                 title="Software Development Engineer @ EndOvedose"
                 description={"Developed a full-stack web application for EndOverdose, which provided high school and middle school students an engaging learning platform to teach them about " + 
