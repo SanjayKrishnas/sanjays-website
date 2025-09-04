@@ -11,7 +11,7 @@ export default function Experience() {
             />
 
             <ContentSection
-                imageSrc=""
+                imageSrc="/sanjays-website/images/neoquortex.webp"
                 imageAlt="NeoQuortex"
                 title="Software Engineering Intern @ NeoQuortex"
                 description={"Member of the AI Simulation team which is responsible for modeling quantum systems using deep learning" +
@@ -40,7 +40,7 @@ export default function Experience() {
             />
 
             <ContentSection
-                imageSrc=""
+                imageSrc="/sanjays-website/images/cyber.jpg"
                 imageAlt="Cyber"
                 title="Software Engineering Intern @ ACM Cyber Labs"
                 description={"At Cyber Labs I worked primarily as a backend developer and established the connection between our Ethereum based smart contracts and our backend services." + 
@@ -57,7 +57,7 @@ export default function Experience() {
             />
 
             <ContentSection
-                imageSrc=""
+                imageSrc="/sanjays-website/images/starAI.png"
                 imageAlt="StarAI"
                 title="Deep Learning/LLM Researcher @ StarAI Labs"
                 description={"Under the provision of Dr. Guy Van den broeck, I worked on LLM optimizations, benchmarking systems, tokenizations, as well as Natural Language Processing." + 
