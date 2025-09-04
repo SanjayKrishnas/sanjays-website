@@ -18,7 +18,7 @@ export default function Home() {
         imageAlt="About me illustration"
         title="Who am I?"
         description={
-          "Hi there, my name is Sanjay! I'm a current Junior studying Computer Science & Engineering " +
+          "Hi there, my name is Sanjay! I'm a current Junior studying Computer Science" +
           "at the University of California, Los Angeles (UCLA) and my interests include: Web Dev, " +
           "creating client facing AI and ML tools, Tech for Social Good, Research in the fields of " +
           "AI for large scale Data Analysis, and working on projects that can actually make an impact " +
